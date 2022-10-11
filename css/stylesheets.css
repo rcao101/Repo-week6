@@ -10,7 +10,9 @@ h2 + p {
     border-bottom: 1px gray solid;
     list-style-type: none;
 } */
-li a:link{
+
+
+/* li a:link{
     color:green;
 }
 
@@ -30,4 +32,12 @@ li:first-child::first-letter{
 a[title="BCIT homepage"]{
     background-color: yellow;
 }
+ */
 
+ img {
+    float: left;
+ }
+
+ .below {
+    clear: left;
+ }
