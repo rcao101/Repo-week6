@@ -1,4 +1,4 @@
-div h2{
+/* div h2{
     font-style: italic;
 }
 
@@ -9,4 +9,25 @@ h2 + p {
 .list > li {
     border-bottom: 1px gray solid;
     list-style-type: none;
+} */
+
+a:visited{
+    color: red;
+}
+
+a:hover{
+    color: pink;
+}
+
+li:first-child::first-letter{
+    font-size: 120%;
+    font-weight: bold;
+}
+
+body > a{
+    background-color: yellow;
+}
+
+a:link{
+    color:green;
 }
